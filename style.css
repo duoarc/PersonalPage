@@ -6,3 +6,8 @@ html, body {
 .box {
     border: black solid 1px;
 }
+
+nav {
+  height: 15px;
+  margin: 0px 0px 5px 0px;
+}
