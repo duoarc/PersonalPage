@@ -20,47 +20,86 @@
          
     </header>
     <main>
-        <section id="banner" class="box">
+
+        <h1 id="name" class="title middle">Abdulrahman Mohammed</h1>
+        <section id="banner" class="box sub-section">
             <img src="version_control.svg" alt="My header banner image" class="banner-image">
-            
         </section>
-        <section id="profile" class="box">
+        <section id="profile" class="sub-section box">
             <span class="box profile-image"><img src="designer.svg" alt="my-photo" class="photo"></span>
             <span class="box" id="about"></span>
             
         </section>
-        <section id="education" class="box">
+        <section id="education" class="sub-section box">
             <p class="box sub-title"></p>
-            <p class="box card"></p>
-            <p class="box card"></p>
-            <p class="box card"></p>
+            <div class="box card">
+                <span class="organisation box"></span>
+                <span class="details box"></span>
+            </div>
+            <div class="box card">
+                <span class="organisation box"></span>
+                <span class="details box"></span>
+            </div>
+            <div class="box card">
+                <span class="organisation box"></span>
+                <span class="details box"></span>
+            </div>
             
         </section>
-        <section id="experience" class="box">
+        <section id="experience" class="sub-section box">
             <p class="box sub-title"></p>
-            <p class="box card"></p>
-            <p class="box card"></p>
-            <p class="box card"></p>
+            <div class="box card">
+                <span class="organisation box"></span>
+                <span class="details box"></span>
+            </div>
+            <div class="box card">
+                <span class="organisation box"></span>
+                <span class="details box"></span>
+            </div>
+            <div class="box card">
+                <span class="organisation box"></span>
+                <span class="details box"></span>
+            </div>
             
         </section>
-        <section id="skills" class="box">
+        <section id="skills" class="sub-section box">
             <p class="box sub-title"></p>
-            <p class="box card"></p>
-            <p class="box card"></p>
-            <p class="box card"></p>
+            <div class="box card">
+                <span class="organisation box"></span>
+                <span class="details box"></span>
+            </div>
+            <div class="box card">
+                <span class="organisation box"></span>
+                <span class="details box"></span>
+            </div>
+            <div class="box card">
+                <span class="organisation box"></span>
+                <span class="details box"></span>
+            </div>
             
         </section>
-        <section id="contact" class="box">
+        <section id="contact" class="sub-section box">
+            <h4 id="contact-title" class="middle">Send me a message...</h4>
+            <div class="box card">
             <form action="">
-                <label for="Name">
-                    
-                </label>
-                <input type="text" name="Name" >
+                
+                <input type="text" name="Name" placeholder="Name" class="form-field" required>
+                <input type="email" name="email" id="" placeholder="Email" class="form-field" required>
+                <input type="textarea" name="" id="" placeholder="Message" size="30" class="form-field" required>
+                <select name="priority" id="priority" class="form-field">
+                    <option value="none">None</option>
+                    <option value="Urgent">Urgent</option>
+                    <option value="Important">Important</option>
+                    <option value="Normal">Normal</option>
+                </select>
+                
+                <button type="submit">Deploy >>></button>
             </form>
+        </div>
         </section>
     </main>
-    <footer class ="box">
-        <p>Copyright 2022</p>
+    <footer class ="sub-section box">
+        <p class="middle">Copyright 2022 AbdulrahmanM</p>
       
     </footer>
 </body>
