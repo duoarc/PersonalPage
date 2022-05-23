@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>About Me</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav class="box">
+            <a href="index.html"> <span class="nav-button box nav-left"> Home</span></a>
+            <a href="index.html#contact" > <span class="nav-button box nav-left">  Contact</span></a>
+            <a href="calculator.html" > <span class="nav-button box nav-left">Calculator</span></a>
+            <a href="register.html" > <span class="nav-button box nav-right" > Register</span></a>
+            <a href="login.html" > <span class="nav-button box nav-right">  Login</span></a>
+            
+        </nav>
+         
+    </header>
+    <main>
+        <section class="box sub-section" id="calculator">
+            <table>
+                <tr>
+                    <!-- <td colspan="3"></td> -->
+                    <td colspan="3" rowspan="2" id="output">0</td>
+                    <td>del</td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>+</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>x</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr> 
+                    <td>/</td>
+                    <td>.</td>
+                    <td>0</td>
+                    <td>=</td>
+                </tr>
+            </table>
+
+        </section>
+
+
+
+        <section id="contact" class="sub-section box">
+            <h4 id="contact-title" class="middle">Send me a message...</h4>
+            <div class="box">
+                <form action="">
+            
+                    <input type="text" name="Name" placeholder="Name" class="form-field" required>
+                    <input type="email" name="email" id="" placeholder="Email" class="form-field" required>
+                    <input type="textarea" name="" id="" placeholder="Message" size="30" class="form-field" required>
+                    <select name="priority" id="priority" class="form-field">
+                        <option value="none">None</option>
+                        <option value="Urgent">Urgent</option>
+                        <option value="Important">Important</option>
+                        <option value="Normal">Normal</option>
+                    </select>
+                    
+                    <button type="submit">Deploy >>></button>   
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class ="sub-section box">
+        <p class="middle">Copyright 2022 AbdulrahmanM</p>
+    
+    </footer>
+</body>
+
+</html>
